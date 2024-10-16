@@ -1,5 +1,5 @@
 {
-  "name": "lora-profile",
+  "name": "myco-landing-page",
   "version": "0.0.1",
   "scripts": {
     "build": "rm -rf .next && next build",
