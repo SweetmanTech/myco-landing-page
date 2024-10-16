@@ -36,7 +36,7 @@ export default function IndexPage() {
                 weight="bold"
                 className="text-center text-xl font-bold leading-tight tracking-tighter md:text-5xl lg:leading-[1.1]"
               >
-                Apps crafted for <br className="hidden md:block" /> Creative Builders
+                Agent crafted for <br className="hidden md:block" /> Creative Builders
               </GradientHeading>
             </FadeIn>
 
@@ -46,7 +46,7 @@ export default function IndexPage() {
                 <div className="hidden -rotate-45 rounded-full border border-black/10 p-1 shadow-lg md:block">
                   <OpenAIIcon className=" h-6 w-6   " aria-hidden="true" />
                 </div>
-                <span> apps for your digital art.</span>
+                <span> assistants for your digital art.</span>
 
                 <span>Zora compatible.</span>
                 <div className="rounded-full border border-black/10 p-1 shadow-lg">
