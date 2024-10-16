@@ -30,8 +30,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/lodash": "^4.17.7",
-    "@types/negotiator": "^0.6.3",
     "@types/node": "^20.11.8",
     "@types/react": "18.2.48",
     "@types/react-dom": "^18.3.0",
@@ -43,7 +41,6 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.29.1",
-    "pino-pretty": "^10.2.3",
     "postcss": "^8.4.35",
     "prettier": "^3.2.4",
     "typescript": "^5.3.3"
