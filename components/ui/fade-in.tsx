@@ -8,8 +8,8 @@ const FadeInStaggerContext = createContext(false)
 const viewport = { once: true, margin: '0px 0px -200px' }
 
 export function FadeIn(props: any) {
-  let shouldReduceMotion = useReducedMotion()
-  let isInStaggerGroup = useContext(FadeInStaggerContext)
+  const shouldReduceMotion = useReducedMotion()
+  const isInStaggerGroup = useContext(FadeInStaggerContext)
 
   return (
     <motion.div

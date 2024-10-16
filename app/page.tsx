@@ -6,14 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { buttonVariants } from '@/components/ui/Button'
 import { Announcement } from '@/components/ui/announcement'
 import { FadeIn } from '@/components/ui/fade-in'
-import {
-  Icons,
-  OpenAIIcon,
-  ReactIcon,
-  TailwindCSSIcon,
-  TypeScriptIcon,
-  ZorbIcon,
-} from '@/components/ui/icons'
+import { Icons, OpenAIIcon, TailwindCSSIcon } from '@/components/ui/icons'
 import { PageActions, PageHeader } from '@/components/page-header'
 import BgNoiseWrapper from '@/components/texture-wrapper'
 import { GradientHeading } from '@/components/ui/gradient-heading'
