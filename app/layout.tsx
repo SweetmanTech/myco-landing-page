@@ -1,13 +1,7 @@
 import '@/styles/globals.css'
 import { Metadata, Viewport } from 'next'
 
-import { fontSans } from '@/lib/fonts'
 import { cn } from '@/lib/utils'
-import { Toaster as NewYorkSonner } from '@/components/ui/sonner'
-import { Toaster as DefaultToaster, Toaster as NewYorkToaster } from '@/components/ui/toaster'
-import { ThemeProvider } from '@/components/providers'
-import { TailwindIndicator } from '@/components/tailwind-indicator'
-import { ThemeSwitcher } from '@/components/theme-switcher'
 
 export const metadata: Metadata = {
   title: {
@@ -62,24 +56,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <div vaul-drawer-wrapper="">
-              <div className="relative z-10 flex min-h-screen flex-col bg-background">
-                {children}
-              </div>
-            </div>
-            <TailwindIndicator />
-            <ThemeSwitcher />
-            <NewYorkToaster />
-            <DefaultToaster />
-            <NewYorkSonner />
-          </ThemeProvider>
+        <body className={cn('min-h-screen bg-background font-sans antialiased font-nounish')}>
+          <div vaul-drawer-wrapper="">
+            <div className="relative z-10 flex min-h-screen flex-col bg-background">{children}</div>
+          </div>
         </body>
       </html>
     </>

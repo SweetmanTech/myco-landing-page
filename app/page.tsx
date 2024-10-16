@@ -1,8 +1,6 @@
 import Link from 'next/link'
-import { IceCream } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
-import { Badge } from '@/components/ui/badge'
 import { buttonVariants } from '@/components/ui/Button'
 import { Announcement } from '@/components/ui/announcement'
 import { FadeIn } from '@/components/ui/fade-in'
@@ -29,7 +27,7 @@ export default function IndexPage() {
                 weight="bold"
                 className="text-center text-xl font-bold leading-tight tracking-tighter md:text-5xl lg:leading-[1.1]"
               >
-                Agent crafted for <br className="hidden md:block" /> Creative Builders
+                Agents crafted for <br className="hidden md:block" /> Creative Builders
               </GradientHeading>
             </FadeIn>
 
@@ -69,7 +67,7 @@ export default function IndexPage() {
             </FadeIn>
             <FadeIn>
               <PageActions>
-                <Link href="/docs" className={cn(buttonVariants())}>
+                <Link href="https://docs.myco.wtf" className={cn(buttonVariants())}>
                   Get Started
                 </Link>
                 <Link
@@ -85,19 +83,6 @@ export default function IndexPage() {
             </FadeIn>
           </PageHeader>
         </div>
-        <section className=" mt-12 hidden w-full md:block">
-          <FadeIn>
-            <div className=" relative mx-auto max-w-7xl rounded-[24px] border border-black/5 p-2 shadow-sm md:rounded-[44px]">
-              <Badge
-                variant="outline"
-                className="absolute left-4 top-6 rounded-[14px] border border-black/10 text-base md:left-6"
-              >
-                <IceCream className=" fill-[#A3C0E0]  stroke-1 text-neutral-800" /> Component
-                Preview
-              </Badge>
-            </div>
-          </FadeIn>
-        </section>
       </BgNoiseWrapper>
     </div>
   )

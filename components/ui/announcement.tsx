@@ -6,14 +6,14 @@ import { Separator } from '@/components/ui/separator'
 export function Announcement() {
   return (
     <Link
-      href="https://www.newcult.co/templates"
+      href="https://chat.myco.wtf"
       className="group inline-flex items-center rounded-lg border border-black/10 bg-transparent px-3 py-1 text-sm font-medium text-neutral-800 shadow-sm"
       target="_blank"
       rel="noreferrer"
     >
       <Blocks className="h-4 w-4 group-hover:rotate-6 group-hover:fill-cyan-300" />{' '}
       <Separator className="mx-2 h-4 bg-neutral-900" orientation="vertical" />{' '}
-      <span>New! Cult Directory Template</span>
+      <span>New! Myco Chat</span>
       <ArrowRightIcon className="ml-1 h-4 w-4" />
     </Link>
   )
