@@ -4,7 +4,6 @@
   "scripts": {
     "build": "rm -rf .next && next build",
     "dev": "next dev",
-    "frog": "frog dev",
     "lint": "next lint --dir . --fix",
     "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx,yml,yaml}\"",
     "start": "next start",
