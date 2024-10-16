@@ -10,3 +10,4 @@
 8. remove unused assets
 9. remove unused styles
 10. remove unused scripts
+11. remove unused types
