@@ -67,7 +67,7 @@ export default function IndexPage() {
             </FadeIn>
             <FadeIn>
               <PageActions>
-                <Link href="https://docs.myco.wtf" className={cn(buttonVariants())}>
+                <Link href="https://docs.myco.wtf/docs/chat" className={cn(buttonVariants())}>
                   Get Started
                 </Link>
                 <Link
