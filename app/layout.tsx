@@ -16,8 +16,12 @@ export const metadata: Metadata = {
       name: 'Jordan-Gilliam',
       url: 'https://Jordan-Gilliam.com',
     },
+    {
+      name: 'sweetman.eth',
+      url: 'https://warpcast.com/sweetman-eth',
+    },
   ],
-  creator: 'Jordan-Gilliam',
+  creator: 'sweetman.eth',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -30,12 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'myco',
     description: 'tools for creative builders',
-    creator: '@nolansym',
-  },
-  icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    creator: '@sweetman_eth',
   },
   manifest: `https://myco.wtf/site.webmanifest`,
 }
